@@ -3,7 +3,7 @@
 ## Development
 
 > A back-end ruby project where there is a practise of using:
-1. **Ruby Input Output***
+1. **Ruby Input Output**
 2. ***RubyGems**
 3. **Manipulating data on files**
 

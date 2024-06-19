@@ -10,6 +10,11 @@
 > [!NOTE]
 > By back-end there is no graphical User Interface for this application but smart terminal use
 
+- This project will go in stages which are:
+
+1. **Stage 1:** add all necessarry config files and ruby files
+2. **STage 2:** add a responsive user interface
+
 ## Challenges and Solutions
 
 ### Challenges

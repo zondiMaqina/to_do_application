@@ -2,7 +2,7 @@ require 'colorize'
 # class creation for terminal user interface
 class UserInteraction
   def initialize
-    puts 'Hello there User kindly!!! supply us with your details'.upcase.colorize(:color => :yelow, :background => :blue)
+    puts 'Hello there User kindly!!! This is your to do list app :)'.upcase.colorize(:color => :yelow, :background => :blue)
     sleep(3)
     puts 'Open application (Yes/No)'
     user_answer = gets.chomp
@@ -15,7 +15,7 @@ class UserInteraction
     if user_answer == 'yes'
       personal_details
     else
-        puts 'Thank you for your participence'.colorize(:green)
+        puts 'Thank you for using the application :)'.colorize(:green)
     end
 end
 

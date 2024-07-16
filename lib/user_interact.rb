@@ -1,4 +1,5 @@
 require 'colorize'
+require_relative 'personal_details'
 # class creation for terminal user interface
 class UserInteraction
   def initialize
@@ -34,9 +35,13 @@ class UserInteraction
     end
 
     if user_answer.downcase == 'yes'
-      puts 'personal details'
+      personal_details
     else
       puts 'What would you like to do :)'.colorize(color: :orange)
     end
+  end
+
+  def personal_details
+    PersonalDetails.new
   end
 end

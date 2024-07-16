@@ -20,3 +20,8 @@
 ### Challenges
 1. How to write data to another file and save it using Ruby
 2. How to remove certain data from external file using ruby
+
+## Solutions
+
+1.
+2.
